@@ -1,10 +1,5 @@
 /* CSS exercise 3 */
 
-div {
-    border: purple 3px;
-    border-style: dashed;
-}
-
 .red-square {
     width: 80px;
     height: 80px;
@@ -35,4 +30,36 @@ div {
     width: 80px;
     border-radius: 50%;
     display: inline-block;
+}
+
+
+/* CSS exercise 5 */
+.cascading-parent {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.cascading-child {
+    background-color: #000;
+    color: #FF0 !important;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.cascading-child-2 {
+    background-color: yellow;
+    background-image: radial-gradient(white 1.6px, transparent 0);
+    background-size: 10px 10px;
+    color: #000 !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 5% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
