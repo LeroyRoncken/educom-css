@@ -63,3 +63,22 @@
     align-items: center;
     margin: 10px;
 }
+
+
+/* CSS exercise 6 */
+a {
+    font-size: 22px;
+    color: #F0F;
+}
+
+.cascading-parent1 h2 {
+    color: #FD0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cascading-parent1 a {
+    font-size: 32px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0f7592;
+}
