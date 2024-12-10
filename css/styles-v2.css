@@ -1,0 +1,22 @@
+/* CSS exercise 6 */
+.site-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.site-color {
+    background-color: indigo;
+    color: #FFF
+}
+
+.site-color-alt {
+    background-color: blue;
+    color: rgb(251, 43, 43);
+}
+
+.site-square {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
