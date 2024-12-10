@@ -6,7 +6,7 @@
 
 .site-color {
     background-color: indigo;
-    color: #FFF
+    color: #FFF;
 }
 
 .site-color-alt {
@@ -19,4 +19,24 @@
     height: 200px;
     margin: 10px;
     padding: 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
