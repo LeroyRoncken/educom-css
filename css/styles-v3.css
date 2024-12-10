@@ -1,0 +1,39 @@
+/* At the top of the file */
+:root {
+
+/* Fonts */
+--regular: "Arial";
+
+/* Colors */
+--color-bg: blue;
+--color-fg: white;
+--color: purple;
+
+/* Circle */
+--size: 200px;
+--margin: 10px;
+--edge: 50%;
+
+/* Alignment */
+--align: center
+
+}
+
+/* Usage */
+
+h1 {
+    font-family: var(--regular);
+    color: var(--color);
+}
+
+.circle {
+    width: var(--size);
+    height: var(--size);
+    margin: var(--margin);
+    border-radius: var(--edge);
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    align-items: var(--align);
+    justify-content: var(--align);
+    display: flex;
+}
